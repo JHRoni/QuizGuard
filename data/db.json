@@ -1,0 +1,79 @@
+{
+  "users": [
+    {
+      "id": "a1430c82-5825-42c2-a1ed-8cd954b690b9",
+      "name": "Roni",
+      "loginId": "2203073",
+      "role": "student",
+      "passwordHash": "3370fdc23acb9a5b82419da2205780a2:d9c5d7736e2e5bb9d54ffce2f52a1f7c6905f6ce2c2aa65527a394c027cc9d6b5ac353b3f105bd137c1562a1e6b0729874b77050b679da270061f445228a0358",
+      "createdAt": "2026-10-10T16:12:14.123Z"
+    },
+    {
+      "id": "0240c7f0-ed03-4f2e-9c68-19c0cdb29580",
+      "name": "borsen sen",
+      "loginId": "1",
+      "role": "teacher",
+      "passwordHash": "32680a38dcdc9f0d4525674b309d45cc:3f9d8fde85fe00057520bdfdb7d2fb015e67aebb4776e36482c28f1f13565e8ad13a5317a056dc548f80372d0beeaa99b2bf5027dfa33b706766764dd13365c4",
+      "createdAt": "2026-10-10T16:14:12.987Z"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "1c472ddf-fc9d-4b2f-8bfd-f3801b58c70f",
+      "teacherId": "0240c7f0-ed03-4f2e-9c68-19c0cdb29580",
+      "title": "dsa",
+      "passkey": "1234",
+      "questions": [
+        {
+          "id": "4ab7fcc0-0308-459b-a6f4-d8e103b0365c",
+          "type": "mcq",
+          "text": "who is goat",
+          "points": 1,
+          "options": [
+            "messi",
+            "leonel",
+            "maradona",
+            "pele"
+          ],
+          "correctOptionIndex": 0
+        },
+        {
+          "id": "92d49ac1-089a-4232-972d-c0de045b51b2",
+          "type": "written",
+          "text": "write down about bd politics",
+          "points": 1,
+          "options": [],
+          "correctOptionIndex": 0
+        }
+      ],
+      "createdAt": "2026-10-10T16:15:29.235Z"
+    }
+  ],
+  "attempts": [
+    {
+      "id": "d267c4e6-e05f-42c9-80e0-b820703501b8",
+      "quizId": "1c472ddf-fc9d-4b2f-8bfd-f3801b58c70f",
+      "studentId": "a1430c82-5825-42c2-a1ed-8cd954b690b9",
+      "studentName": "Roni",
+      "studentLoginId": "2203073",
+      "status": "submitted",
+      "answers": [
+        {
+          "questionId": "4ab7fcc0-0308-459b-a6f4-d8e103b0365c",
+          "value": "0"
+        },
+        {
+          "questionId": "92d49ac1-089a-4232-972d-c0de045b51b2",
+          "value": "i dont know"
+        }
+      ],
+      "autoScore": 1,
+      "maxAutoScore": 1,
+      "pendingReview": false,
+      "autoSubmitted": false,
+      "startedAt": "2026-10-10T16:16:39.144Z",
+      "submittedAt": "2026-10-10T16:16:57.174Z",
+      "manualScore": 1
+    }
+  ]
+}
